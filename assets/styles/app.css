@@ -256,3 +256,7 @@
 .cookie-notice__text a {
     color: #fff;
 }
+
+.cookie-notice__text a {
+    text-decoration: underline;
+}
