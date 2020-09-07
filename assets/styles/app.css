@@ -237,6 +237,12 @@
     flex-wrap: nowrap;
 }
 
+@media(min-width:768px) {
+    .cookie-notice {
+        flex-direction: column;
+    }
+}
+
 .cookie-notice.hidden {
     display: none;
 }
