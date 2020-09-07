@@ -224,3 +224,29 @@
         min-height: 370px;
     }
 }
+
+.cookie-notice {
+    background-color: #023f88;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cookie-notice.hidden {
+    display: none;
+}
+
+.cookie-notice__text {
+    flex-basis: 100%;
+    padding-right: 30px;
+}
+
+.cookie-notice__text,
+.cookie-notice__text a {
+    color: #fff;
+}
