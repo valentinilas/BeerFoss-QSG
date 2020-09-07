@@ -233,13 +233,13 @@
     left: 0;
     padding: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
 }
 
 @media(min-width:768px) {
     .cookie-notice {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
